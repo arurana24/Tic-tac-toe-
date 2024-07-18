@@ -2,7 +2,8 @@
 using namespace std;
 
 struct tic_tac_toe
-{char board[3][3]={{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};
+{
+char board[3][3]={{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};
 
 bool is_valid_move(int row,int column)
 {
